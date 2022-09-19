@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import Home from'./pages/Home'
 import NotFound from './pages/NotFound'
 import RamenList from './pages/RamenList'
+import Reccomendations from './pages/Reccomendations'
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -15,6 +16,7 @@ const AppRouter = () => (
   <Switch>
     <Route path ='/' component={Home} />
     <Route path = '/ramenlist' component={RamenList} />
+    <Route path ='/reccomendations' component={Reccomendations} />
     <Route component={NotFound} />
   </Switch>
 <Footer />
