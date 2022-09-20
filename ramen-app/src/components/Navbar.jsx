@@ -7,6 +7,7 @@ return(
     <>
 <Link to ='/RamenList' id='nav-ramenList'><button class ='nav-ramen'> NYC Ramen list</button></Link>
 <Link to ='/' id='nav-home'><button class='nav-home'>Home</button></Link>
+<Link to ='/reccomendations' id='nav-reccomendations'><button class='nav-reccomendations'>Reccomendations</button></Link>
 </>
 );
 }

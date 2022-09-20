@@ -10,7 +10,7 @@ import NotFound from './pages/NotFound'
 import RamenList from './pages/RamenList'
 import Reccomendations from './pages/Reccomendations'
 
-const AppRouter = () => (
+const App = () => (
   <BrowserRouter>
   <Navbar />
   <Switch>
@@ -23,4 +23,4 @@ const AppRouter = () => (
   </BrowserRouter>
 )
 
-export default AppRouter
+export default App
